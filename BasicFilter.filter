@@ -3,6 +3,45 @@ Show
     BaseType 普蘭德斯金幣 銀幣 魔符
 Show
     Class 預言
+
 #迷宮物品
 Show
     Class 迷宮物品 迷宮飾品
+
+#命運卡
+Show
+    Class 命運卡
+
+#任務物品
+Show
+    Class 任務物品
+
+#釣魚囉~~~
+Show
+    BaseType 白化的羽毛 魚竿
+    PlayAlertSound 8
+
+#傳奇
+Show
+    Rarity = Unique
+
+#Map
+Show
+    Class 地圖碎片 異界地圖
+
+#6S
+Show
+    Sockets = 6
+
+#5,6L
+Show
+    LinkedSockets >= 5
+
+#通貨
+Show
+    Class 通貨
+
+#幻色石配方
+Show
+    SocketGroup RGB
+
