@@ -1,0 +1,8 @@
+#聯盟物品
+Show
+    BaseType 普蘭德斯金幣 銀幣 魔符
+Show
+    Class 預言
+#迷宮物品
+Show
+    Class 迷宮物品 迷宮飾品
