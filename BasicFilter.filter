@@ -45,3 +45,69 @@ Show
 Show
     SocketGroup RGB
 
+#珠寶
+Show
+    Class 珠寶
+
+# 技能寶石
+Show
+    Class 技能寶石
+
+#稀有
+Show
+    Rarity = Rare
+
+#物品基底
+Show
+    BaseType 祭禮束衣 伏擊刺刃 魔性法杖 先驅者之弓 黃晶護身符 寶鑽戒指 雙玉戒指 三相戒指 瑪瑙護身符 皮革腰帶
+
+#Q藥水
+Show
+    Quality >= 1
+    Class 藥劑
+
+#製圖釘材料
+Show
+    BaseType 石錘 破岩錘 堅錘
+    Rarity = Normal
+
+#低等4L
+Show
+    ItemLevel <= 50
+    LinkedSockets >= 4
+
+#75以上戒指護身符
+Show
+    ItemLevel >= 75
+    Rarity = Normal
+    Class 戒指 項鍊
+
+#隱藏
+Hide
+    Class 戒指 項鍊 腰帶
+    ItemLevel >= 20
+    Rarity <= Magic
+Hide
+    Class 弓 細劍 法杖 爪 匕首 單手劍 單手斧 單手錘 長杖 雙手劍 雙手斧 雙手錘 權杖 手套 鞋子 胸甲 頭部 盾
+    Rarity <= Magic
+    Quality = 0
+Hide
+    Class 箭袋
+    Rarity <= Magic
+
+#藥劑
+Hide
+    Class 生命藥劑 魔力藥劑
+    DropLevel < 20
+    ItemLevel >= 20
+    Rarity <= Magic
+Hide
+    Class 生命藥劑 魔力藥劑
+    DropLevel < 40
+    ItemLevel >= 40
+    Rarity <= Magic
+Hide
+    Class 生命藥劑 魔力藥劑
+    DropLevel < 60
+    ItemLevel >= 60
+    Rarity <= Magic
