@@ -1,16 +1,16 @@
 ﻿#聯盟物品
 Show
-    BaseType 普蘭德斯金幣 銀幣 魔符
-Show
-    BaseType 預言
+    BaseType 普蘭德斯金幣 銀幣 魔符 預言 精隨 遺忘的污染器皿
 
 #迷宮物品
 Show
-    Class 迷宮物品 迷宮飾品
+    Class 迷宮物品 迷宮飾品 異界迷宮物品
 
 #命運卡
 Show
     Class 命運卡
+Show
+    BaseType 豐裕牌組
 
 #任務物品
 Show
@@ -20,14 +20,20 @@ Show
 Show
     BaseType 白化的羽毛 魚竿
     PlayAlertSound 8
+    SetBorderColor 255 0 255
+    SetTextColor 255 0 255
+    SetBackgroundColor 255 255 0
+    SetFontSize 42
 
 #傳奇
 Show
     Rarity = Unique
 
-#Map
+#輿圖
 Show
     Class 地圖碎片 異界地圖
+Show
+    BaseType 製圖六分儀 製圖封印 還原玉
 
 #6S
 Show
@@ -37,13 +43,16 @@ Show
 Show
     LinkedSockets >= 5
 
-#通貨
-Show
-    Class 通貨
-
 #幻色石配方
 Show
     SocketGroup RGB
+
+#通貨
+Show
+    BaseType 卷軸碎片 蛻變石碎片 改造石碎片 點金石碎片 知識卷軸 傳送卷軸
+Show
+    Class 通貨
+    SetTextColor 255 0 255
 
 #珠寶
 Show
@@ -51,15 +60,30 @@ Show
 
 # 技能寶石
 Show
+    BaseType 賦予輔助 增幅輔助 啟蒙輔助 引爆地雷 時空之門
+    SetBorderColor 255 0 0
+    SetTextColor 255 0 0
+    PlayAlertSound 6
+Show
+    Class 技能寶石
+
+Show
     Class 技能寶石
 
 #稀有
 Show
     Rarity = Rare
 
-#物品基底
+#常用物品基底
 Show
-    BaseType 祭禮束衣 伏擊刺刃 魔性法杖 先驅者之弓 黃晶護身符 寶鑽戒指 雙玉戒指 三相戒指 瑪瑙護身符 皮革腰帶
+    BaseType 帝金護身符 海玉護身符 琥珀護身符 翠玉護身符 黑曜護身符 皮革腰帶 扣鏈腰帶 珊瑚戒指 金光戒指 三相戒指 月光石戒指 寶鑽戒指 雙玉戒指 潛能之戒 刺鋒箭袋 寬矢箭袋 巨人護手 迷蹤手套 術士手套 龍鱗手套 聖戰手套 暗殺者護手 巨人脛甲 迷蹤短靴 術士長靴 龍鱗長靴 聖戰長靴 暗殺者長靴 永恆堅盔 獅首皮盔 靈主之環 夢魘戰盔 領主戰冠 弒神之面 榮耀戰鎧 星辰皮甲 瓦爾法衣 連身龍鱗鎧 將軍鎧甲 勝利盔甲 聖者鏈甲 聖潔鎖甲 血色之衣 狂虐者束衣 星芒戰鎧 刺殺者之裝 秘術長衣 禁禮之甲 堅毅塔盾 帝國輕盾 巨人魔盾 祭者圓盾 鬥士鳶盾 霸者刺盾 象牙魔盾 石化魔盾 權貴圓盾 威能鳶盾 白靈之爪 瓦爾戰爪 帝國戰爪 恐懼之牙 白金波刃 魔靈短匕 帝國短匕 伏擊刺刃 靈石法杖 魔性法杖 箴言法杖 狂風法杖 虛影權杖 卡魯權杖 靈石權杖 禁禮權杖 先驅者之弓 城塞戰弓 帝國之弓 暗殺弓 脊弓 帝國長杖 風暴長杖 審判長杖 艾茲麥長杖 夜語長劍 永恆之劍 軍團長劍 魔喙細劍 瓦爾細劍 寶飾細劍 皇家之斧 瓦爾戰斧 聖約之錘 夢魘之錘 獄炎重劍 獅爪巨劍 瓦爾巨劍 瓦爾巨斧 霸主巨斧 戮魂重錘 懼靈重錘 掃蕩者
+
+#特殊物品基底
+Show
+    BaseType 祭禮束衣 傑特護身符 碧珠護身符 理石護身符 先鋒腰帶 水晶腰帶 傑特戒指 鋼鑄戒指 蛋白石戒指 釦釘手套 擒拿手套 絲綢手套 飛羽便鞋 異色鞋 喚骨頭盔
+    SetBorderColor 0 0 255
+    SetTextColor 0 0 255
+    SetBackgroundColor 255 255 255
 
 #瑪拉凱之鋼
 Show
@@ -86,17 +110,27 @@ Show
     Rarity = Normal
     Class 戒指 項鍊
 
+#白洞
+Show
+    SocketGroup W
+
+#基礎掉落等級70以上
+Show
+    DropLevel >= 70
+
 #隱藏
 Hide
     Class 戒指 項鍊 腰帶
-    ItemLevel >= 20
+    ItemLevel >= 30
     Rarity <= Magic
 Hide
     Class 弓 細劍 法杖 爪 匕首 單手劍 單手斧 單手錘 長杖 雙手劍 雙手斧 雙手錘 權杖 手套 鞋子 胸甲 頭部 盾
     Rarity <= Magic
-    Quality = 0
+    ItemLevel >= 30
+    Quality < 20
 Hide
     Class 箭袋
+    ItemLevel >= 30
     Rarity <= Magic
 
 #藥劑
