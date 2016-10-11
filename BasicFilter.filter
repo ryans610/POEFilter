@@ -1,9 +1,9 @@
 ﻿#聯盟物品
 Show
-    BaseType 普蘭德斯金幣 銀幣
+    BaseType 普蘭德斯金幣 銀幣 精髓 遺忘的污染器皿
     SetTextColor 255 0 255
 Show
-    BaseType 魔符 預言 精髓 遺忘的污染器皿
+    BaseType 魔符 預言
 
 #迷宮物品
 Show
@@ -38,7 +38,10 @@ Show
     SetTextColor 0 0 255
     SetBorderColor 0 0 255
 Show
-    BaseType 製圖六分儀 製圖封印 還原玉
+    BaseType 還原玉
+Show
+    BaseType 製圖六分儀 製圖封印
+    SetTextColor 255 0 255
 
 #6S
 Show
