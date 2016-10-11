@@ -41,10 +41,14 @@ Show
 #6S
 Show
     Sockets = 6
+    SetTextColor 0 255 0
 
 #5,6L
 Show
     LinkedSockets >= 5
+    SetBorderColor 255 0 0
+    SetTextColor 255 0 0
+    PlayAlertSound 6
 
 #幻色石配方
 Show
@@ -107,6 +111,9 @@ Show
 Show
     BaseType 石錘 破岩錘 堅錘
     Rarity = Normal
+    Quality = 20
+    SetTextColor 255 255 0
+    SetBorderColor 255 255 0
 
 #低等4L
 Show
