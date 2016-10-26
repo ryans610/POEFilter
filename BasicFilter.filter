@@ -107,13 +107,7 @@ Show
 
 #特殊物品基底
 Show
-    BaseType 祭禮束衣 傑特護身符 碧珠護身符 理石護身符 先鋒腰帶 水晶腰帶 傑特戒指 鋼鑄戒指 蛋白石戒指 釦釘手套 擒拿手套 飛羽便鞋 異色鞋 喚骨頭盔
-    SetBorderColor 0 0 255
-    SetTextColor 0 0 255
-    SetBackgroundColor 255 255 255
-Show
-    BaseType 絲綢手套
-    DropLevel > 70
+    BaseType 祭禮束衣 傑特護身符 碧珠護身符 理石護身符 先鋒腰帶 水晶腰帶 傑特戒指 鋼鑄戒指 蛋白石戒指 釦釘手套 擒拿手套 飛羽便鞋 異色鞋 喚骨頭盔 魔指手套
     SetBorderColor 0 0 255
     SetTextColor 0 0 255
     SetBackgroundColor 255 255 255
