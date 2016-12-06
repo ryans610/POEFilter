@@ -1,4 +1,8 @@
-﻿#聯盟物品
+﻿#傳奇
+Show
+    Rarity = Unique
+
+#聯盟物品
 Show
     BaseType 普蘭德斯金幣 銀幣 精髓 遺忘的污染器皿
     SetTextColor 255 0 255
@@ -8,29 +12,6 @@ Show
 #迷宮物品
 Show
     Class 迷宮物品 迷宮飾品 異界迷宮物品
-
-#命運卡
-Show
-    Class 命運卡
-Show
-    BaseType 豐裕牌組
-
-#任務物品
-Show
-    Class 任務物品
-
-#釣魚囉~~~
-Show
-    BaseType 白化的羽毛 魚竿
-    PlayAlertSound 8
-    SetBorderColor 255 0 255
-    SetTextColor 255 0 255
-    SetBackgroundColor 255 255 0
-    SetFontSize 42
-
-#傳奇
-Show
-    Rarity = Unique
 
 #輿圖
 Show
@@ -58,6 +39,32 @@ Show
     BaseType 製圖六分儀 製圖封印
     SetTextColor 255 0 255
 
+#命運卡
+Show
+    Class 命運卡
+Show
+    BaseType 豐裕牌組
+
+#通貨
+Show
+    BaseType 卷軸碎片 蛻變石碎片 改造石碎片 點金石碎片 知識卷軸 傳送卷軸
+Show
+    Class 通貨
+    SetTextColor 255 0 255
+
+#任務物品
+Show
+    Class 任務物品
+
+#釣魚囉~~~
+Show
+    BaseType 白化的羽毛 魚竿
+    PlayAlertSound 8
+    SetBorderColor 255 0 255
+    SetTextColor 255 0 255
+    SetBackgroundColor 255 255 0
+    SetFontSize 42
+
 #6S
 Show
     Sockets = 6
@@ -73,13 +80,6 @@ Show
 #幻色石配方
 Show
     SocketGroup RGB
-
-#通貨
-Show
-    BaseType 卷軸碎片 蛻變石碎片 改造石碎片 點金石碎片 知識卷軸 傳送卷軸
-Show
-    Class 通貨
-    SetTextColor 255 0 255
 
 #珠寶
 Show
