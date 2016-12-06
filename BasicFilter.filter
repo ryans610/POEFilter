@@ -45,17 +45,6 @@ Show
 Show
     BaseType 豐裕牌組
 
-#通貨
-Show
-    BaseType 卷軸碎片 蛻變石碎片 改造石碎片 點金石碎片 知識卷軸 傳送卷軸
-Show
-    Class 通貨
-    SetTextColor 255 0 255
-
-#任務物品
-Show
-    Class 任務物品
-
 #釣魚囉~~~
 Show
     BaseType 白化的羽毛 魚竿
@@ -64,6 +53,13 @@ Show
     SetTextColor 255 0 255
     SetBackgroundColor 255 255 0
     SetFontSize 42
+
+#通貨
+Show
+    BaseType 卷軸碎片 蛻變石碎片 改造石碎片 點金石碎片 知識卷軸 傳送卷軸
+Show
+    Class 通貨
+    SetTextColor 255 0 255
 
 #6S
 Show
@@ -135,16 +131,16 @@ Show
     Quality >= 1
     Class 藥劑
 
-#低等4L
-Show
-    ItemLevel <= 50
-    LinkedSockets >= 4
-
 #75以上戒指護身符
 Show
     ItemLevel >= 75
     Rarity = Normal
     Class 戒指 項鍊
+
+#低等4L
+Show
+    ItemLevel <= 50
+    LinkedSockets >= 4
 
 #白洞
 Show
@@ -153,6 +149,10 @@ Show
 #基礎掉落等級70以上
 Show
     DropLevel >= 70
+
+#任務物品
+Show
+    Class 任務物品
 
 #隱藏
 Hide
