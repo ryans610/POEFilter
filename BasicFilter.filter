@@ -4,10 +4,14 @@ Show
 
 #聯盟物品
 Show
-    BaseType 普蘭德斯金幣 銀幣 精髓 遺忘的污染器皿
+    BaseType 普蘭德斯金幣 銀幣 精髓 遺忘的污染器皿 古典遺鑰
     SetTextColor 255 0 255
 Show
     BaseType 魔符 預言
+Show
+    Class 聯盟石
+    SetTextColor 255 0 255
+    SetBorderColor 255 255 255
 
 #迷宮物品
 Show
